@@ -1,0 +1,20 @@
+[
+  { "id": "A", "name": "A", "duration": 35, "predecessors": [] },
+  { "id": "B", "name": "B", "duration": 15, "predecessors": ["E", "G", "J"] },
+  { "id": "C", "name": "C", "duration": 40, "predecessors": ["H"] },
+  { "id": "D", "name": "D", "duration": 10, "predecessors": ["A"] },
+  { "id": "E", "name": "E", "duration": 20, "predecessors": ["C", "I"] },
+  { "id": "F", "name": "F", "duration": 40, "predecessors": ["N"] },
+  { "id": "G", "name": "G", "duration": 15, "predecessors": ["D", "K"] },
+  { "id": "H", "name": "H", "duration": 15, "predecessors": ["A"] },
+  { "id": "I", "name": "I", "duration": 40, "predecessors": ["K"] },
+  { "id": "J", "name": "J", "duration": 50, "predecessors": ["H", "L"] },
+  { "id": "K", "name": "K", "duration": 20, "predecessors": ["H", "F"] },
+  { "id": "L", "name": "L", "duration": 10, "predecessors": ["A"] },
+  { "id": "M", "name": "M", "duration": 15, "predecessors": ["C"] },
+  { "id": "N", "name": "N", "duration": 15, "predecessors": [] },
+  { "id": "O", "name": "O", "duration": 45, "predecessors": ["I"] },
+  { "id": "P", "name": "P", "duration": 30, "predecessors": ["Q"] },
+  { "id": "Q", "name": "Q", "duration": 20, "predecessors": ["F"] },
+  { "id": "R", "name": "R", "duration": 30, "predecessors": ["M"] }
+]
